@@ -33,11 +33,14 @@ D. "KidsPawnedTheRouter" (19 chars)
 
 Winner: A. Revision 1: drop "My" - "Ex" already implies the narrator,
 so those 2 chars earn nothing (criterion 5). Final: "ExTextedForThePassword" (22 chars).
+Revision 2: keep CamelCase with no spaces (spaces cost characters and
+weaken the one-glance punch in a network list) and write no trailing
+newline, so the file is exactly the 22 characters counted below.
 """
 
 import os
 
-NAME = "ExTextedForThePassword"
+NAME = "ExTextedForThePassword"  # exactly 22 characters, all ASCII
 
 
 def main() -> None:
