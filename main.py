@@ -31,12 +31,13 @@ D. "KidsPawnedTheRouter" (19 chars)
    3: kids, router, pawned - but no motive, thinner story. 4: fresh.
    5: tightest of the four. Loses on 3 to A.
 
-Winner: A. Draft v1 below; tightening passes follow in later commits.
+Winner: A. Revision 1: drop "My" - "Ex" already implies the narrator,
+so those 2 chars earn nothing (criterion 5). Final: "ExTextedForThePassword" (22 chars).
 """
 
 import os
 
-NAME = "MyExTextedForThePassword"
+NAME = "ExTextedForThePassword"
 
 
 def main() -> None:
